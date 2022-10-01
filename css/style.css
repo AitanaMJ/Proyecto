@@ -1,0 +1,17 @@
+.hero{
+   
+    background-size: cover;
+    background-position:inherit;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    
+}
+
+.carousel-inner{
+    background-size: cover;
+    height: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
