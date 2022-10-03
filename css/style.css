@@ -1,23 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 .hero{
+    padding-left: 100px;
+    padding-right: 100px;
    
-    background-size: cover;
+}
+
+.carousel-inner{
+
+   background-size: cover;
     background-position:inherit;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
     
-}
-
-.carousel-inner{
-    background-size: cover;
-    height: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
     
 }
 
 @media (max-width:768px) {
-    .intro{
+    .hero{
         width: 100% !important;
     }
 }
