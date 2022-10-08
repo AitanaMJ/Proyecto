@@ -277,3 +277,29 @@ input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
 }
+
+body{
+    background-color: rgb(156, 153, 153);
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    
+}
+
+.container h1{
+    font-family: cursive;
+    font-size: 40px;
+    color: #000;
+
+}
+
+.container p{
+    font-family: cursive;
+}
