@@ -1,16 +1,16 @@
 
 
 :root {
-    --primario: #9C27B0;
-    --primarioOscuro: #89119D;
-    --secundario: #FFCE00;
+    --primario: #707B7C;
+    --primarioOscuro: #707B7C;
+    --secundario: #000;
     --secundarioOscuro: rgb(233, 187, 2);
     --blanco: #FFF;
     --negro: #000;
     --verde:green;
 
 
-    --fuentePrincipal: 'Staatliches', cursive;
+    --fuentePrincipal: 'Libre Baskerville', serif;
 }
 
 
@@ -28,14 +28,15 @@ html {
     /* background-color: var(--verde); */
     font-size: 1.6rem;
     line-height: 1.5;
+    font-family: 'Libre Baskerville', serif;
 }
 p {
     font-size: 1.8rem;
-    font-family: Arial, Helvetica, sans-serif;
     /* color: var(--blanco); */
 }
 a {
     text-decoration: none;
+    font-size: medium;
 }
 img {
     width: 100%;
@@ -44,20 +45,7 @@ img {
     max-width: 120rem;
     margin: 0 auto;
 }
-/* h1, h2, h3 {
-    text-align: center;
-    color: var(--secundario);
-    font-family: var(--fuentePrincipal);
-} */
-/* h1 {
-    font-size: 4rem;
-}
-h2 {
-    font-size: 3.2rem;
-}
-h3 {
-    font-size: 2.4rem;
-} */
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -77,6 +65,7 @@ h3 {
 
 .producto__nombre {
     font-size: 4rem;
+    color: #000;
 }
 .producto__precio {
     font-size: 2.8rem;
@@ -89,40 +78,13 @@ h3 {
     text-align: center;
     line-height: 1.2;
 }
- /* * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-} */
-
-/* .hero {
-    padding-left: 100px;
-    padding-right: 100px;
-   
-}
-
-.carousel-inner{
-
-   background-size: cover;
-    background-position:inherit;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    
-    
-}
-
-@media (max-width:768px) {
-    .hero{
-        width: 100% !important;
-    }
-} */
+ 
 .card-group  {
     justify-content: space-between;
     
 
 }
-.card {
+.card1 {
     height: 400px;
     width: 400px;
     border: white;
@@ -266,6 +228,16 @@ textarea {
         float: none;
         text-align:center;
     }
+    .row {
+        flex-direction: column;
+    }
+    .li {
+        padding: 5px;
+        justify-content: center;
+    }
+    .contacto{
+        font-size: 28px;
+    }
 }
 
 input[type=checkbox] + label {
@@ -277,12 +249,10 @@ input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
 }
-
-body{
-    background-color: rgb(156, 153, 153);
+li {
+    list-style: none;
 }
-
-.container{
+.contenedor{
     margin: 0px;
     padding: 0px;
     font-family: cursive;
@@ -293,13 +263,13 @@ body{
     
 }
 
-.container h1{
+.contenedor h1{
     font-family: cursive;
     font-size: 40px;
     color: #000;
 
 }
 
-.container p{
+.contenedor p{
     font-family: cursive;
 }
